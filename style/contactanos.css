@@ -1,0 +1,109 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.titulo{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    top: 0;
+    background-color: red;
+    height: 60px;
+    align-items: center;
+}
+.contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+input, textarea{
+    width: 25%;
+    padding: 15px;
+    margin: 20px;
+    border: none;
+}
+.in-text:hover{
+    background: linear-gradient(to top, rgb(165, 255, 225) 0%, rgba(255, 255, 255, 0.486) 84%);
+    
+}
+textarea:hover{
+    background: linear-gradient(to top, rgb(165, 255, 225) 0%, rgba(255, 255, 255, 0.486) 84%);
+    
+}
+input:focus{
+    background: linear-gradient(to top, rgb(165, 255, 225) 0%, rgba(255, 255, 255, 0.486) 84%);
+    
+}
+textarea:focus{
+    background: linear-gradient(to top, rgb(165, 255, 225) 0%, rgba(255, 255, 255, 0.486) 84%);
+}
+
+textarea:focus{
+    background: linear-gradient(to top, rgb(165, 255, 225) 0%, rgba(255, 255, 255, 0.486) 84%);
+}
+#smit:hover{
+    background-color: #49caaa;
+    cursor: pointer;
+    color: #fff;
+    
+}
+textarea{
+    height: 150px;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 25%;
+    min-height: 130px;
+    max-width: 25%;
+    max-height: 180px;
+    
+}
+
+
+
+
+@media screen and (max-width:900px){
+ .contacto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    input, textarea{
+        width: 80%;
+        padding: 15px;
+        margin: 20px;
+        border: none;
+    }
+    textarea{
+        height: 150px;
+        font-family: 'Open Sans', sans-serif;
+        min-width: 80%;
+        min-height: 130px;
+        max-width: 80%;
+        max-height: 180px;
+        
+    }
+    input:hover{
+        background: #fff;
+        
+    }
+    textarea:hover{
+        background: #fff;
+        
+    }
+    input:focus{
+        background: #fff;
+        
+    }
+    textarea:focus{
+        background: #fff;
+    }
+    
+
+
+
+}

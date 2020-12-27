@@ -1,0 +1,144 @@
+
+
+@media screen and (max-width:900px){
+
+    .nav{
+
+        transform: translateX(300%);
+        width: 50%;
+        
+        background-color: rgba(30, 190, 165, 0.95);
+        height: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        z-index: 100;
+        transition: 1s;
+    }
+    .mostrar{
+        transform: translateX(100%);
+    }
+    .presentacion{
+        width: 280px;
+        height: 280px;
+        
+    }
+    .imagen-presentacion{
+        object-fit: cover;
+    }
+  
+    .boton-menu{
+        display: flex;
+        visibility: visible;
+        position: fixed;
+        top: 30px;
+        right: 30px;
+        background-color: #fff;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0 0 6px rgba(0,0,0,.5);
+        transform: translate(0%);
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        transition: transform 1s;
+    }
+    .mover{
+        transform: translateX(-280px);
+    }
+    .info{
+        opacity: 1;
+    }
+    
+    .boton-menu:hover .nav{
+        transform: translateX(0%);
+        
+    }
+    .banner{
+
+        
+        
+        width: 100vw;
+        background-image: url("../img/web-design.png");
+
+        
+        
+         background-attachment: fixed;
+       
+    }
+    .main{
+        margin-top: 60px;
+    }
+    .main-index{
+        margin-top: 0px;
+    }
+    .logo_banner_servicio{
+        font-size: 40px;
+        color: #fff;
+        
+    }
+    .logo_banner{
+        display: none;
+    }
+    .banner p{
+        display: none;
+    }
+  
+    @keyframes banner_servicio{
+        from{
+            transform: translateX(-500px);
+    
+        }
+        
+        to{
+            transform: translateX(50px);
+            color: #2affdf;
+        }
+    }
+
+    .contenedor-productos{
+       
+       height: 100%;
+
+    }
+
+    /*------------------------ ENVIO -----------------------------*/
+
+   .tit-envio{
+       font-size: 20px;
+   }
+   .acl-envio{
+        font-size: 15px;
+   }
+
+
+
+   .boton-compra{
+    background-color: #76E892;
+    font-size: 15px;
+    width: 50%;
+    border: none;
+    font-weight: bolder;
+    color:#fff;
+    }
+    .formulario-compra{
+        
+        width: 100%;
+    }
+
+    .formulario-compra input{
+       
+        width: 80%;
+    }
+
+
+
+
+}   
+
+
+
+
